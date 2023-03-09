@@ -108,5 +108,18 @@ function promptIntern() {
             name: "school",
             message: "Enter the intern's school name:",
         },
-    ])
+    ]);
+}
+
+// This function prompts the user to select an action to perform
+
+function promptAction() {
+    return inquirer.prompt([
+        {
+            type: "list",
+            name: "action",
+            message: "What would you like to do?",
+            choices: ["Add an engineer", "add an intern", "Finish building the team"],
+        },
+    ]);
 }
