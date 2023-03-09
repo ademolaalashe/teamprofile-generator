@@ -56,3 +56,30 @@ function promptRole() {
 
     ]);
 }
+
+// This function prompts the user to enter information about a new engineer 
+
+function promptEngineer() {
+    return inquirer.prompt([
+        {
+            type: "input",
+            name: "name",
+            message: "Enter the engineer's name:",
+        },
+        {
+            type: "input",
+            name: "id",
+            message: "Enter the engineer's employee ID:",
+        },
+        {
+            type: "input",
+            name: "email",
+            message: "Enter the engineer's email address:",
+        },
+        {
+            type: "input",
+            name: "github",
+            message: "Enter the engineer's GitHub username:",
+        },
+    ]);
+}
