@@ -40,5 +40,19 @@ function promptManager() {
             name: "officeNumber",
             message: "Enter the manager's office number:",
         },
-    ])
+    ]);
+}
+
+// This function prompts the user to select a role for a new team member
+
+function promptRole() {
+    return inquirer.prompt([
+        {
+            type: "list",
+            name: "role",
+            message: "Please select a role for the new team member:",
+            choices: ["Engineer", "Intern"],
+        },
+
+    ]);
 }
