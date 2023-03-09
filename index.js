@@ -123,3 +123,12 @@ function promptAction() {
         },
     ]);
 }
+
+// This function generates the HTML file based on the information provided
+
+function generateHTML() {
+    const html = render(teamMembers);
+    fs.writeFileSync(outputPath, html);
+    console.log("The team profile has been generated at ${outputPath}");
+}
+
