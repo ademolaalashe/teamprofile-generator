@@ -119,7 +119,7 @@ function promptAction() {
             type: "list",
             name: "action",
             message: "What would you like to do?",
-            choices: ["Add an engineer", "add an intern", "Finish building the team"],
+            choices: ["Add an engineer", "Add an intern", "Finish"],
         },
     ]);
 }
