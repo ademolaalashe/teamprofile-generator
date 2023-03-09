@@ -26,7 +26,19 @@ function promptManager() {
             message: "Enter the manager's name:",
         },
         {
-            
-        }
+            type: "input",
+            name: "id",
+            message: "Enter the manager's employee ID:",
+        },
+        {
+            type: "input",
+            name: "email",
+            message: "Enter the manager's email address:",
+        },
+        {
+            type: "input",
+            name: "officeNumber",
+            message: "Enter the manager's office number:",
+        },
     ])
 }
