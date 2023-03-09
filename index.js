@@ -132,3 +132,11 @@ function generateHTML() {
     console.log("The team profile has been generated at ${outputPath}");
 }
 
+// This is the main function that runs the application
+
+async function init() {
+    console.log("Please enter the information about the team manager");
+    const managerData = await promptManager();
+    const manager = new Manager(managerData.name, managerData.id, managerData.email, managerData.officeNumber);
+}
+
