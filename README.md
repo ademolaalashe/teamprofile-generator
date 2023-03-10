@@ -11,14 +11,22 @@ This application takes information about employees on a software engineering tea
 As a Manager, I want to:
 - Generate a webpage that displays my team's basic information, so that I have a quick access to their emails and GitHub profiles.
 
-  ## Installation:
+## Installation:
 
   Fork the project and clone the repository. Then install all necessary dependencies with:
   ```npm install```
 
-  ## Screenshot
+## Screenshot
+  
+![FDR](https://github.com/ademolaalashe/teamprofile-generator/blob/main/images/html-output.pngyy)
 
-  ## Credits
+
+![FDR](https://github.com/ademolaalashe/teamprofile-generator/blob/main/images/testrun.png)
+
+
+![FDR](https://github.com/ademolaalashe/teamprofile-generator/blob/main/images/tp-generator1.png)
+
+## Credits
 
 - [Alexandra Batrak](https://github.com/alexandrabatrak/)
 - [Node.js](https://nodejs.org/en/)
