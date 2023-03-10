@@ -17,13 +17,14 @@ As a Manager, I want to:
   ```npm install```
 
 ## Screenshot
-  
-![FDR](https://github.com/ademolaalashe/teamprofile-generator/blob/main/images/html-output.pngyy)
+ 
+### HTML Output
+![FDR](https://github.com/ademolaalashe/teamprofile-generator/blob/main/images/html-output.png)
 
-
+### Test Return
 ![FDR](https://github.com/ademolaalashe/teamprofile-generator/blob/main/images/testrun.png)
 
-
+### TP Generator
 ![FDR](https://github.com/ademolaalashe/teamprofile-generator/blob/main/images/tp-generator1.png)
 
 ## Credits
@@ -34,6 +35,10 @@ As a Manager, I want to:
 - [Inquirer](https://www.npmjs.com/package/inquirer)
 - [Badges](shields.io)
 - Starter code provided 
+
+## Github
+- Github: [ademolaalashe](https://github.com/ademolaalashe)
+- Repository: [Team Profile Generator](https://github.com/ademolaalashe/teamprofile-generator)
 
  ## License
   This project is licensed under APACHE2.0 license.
