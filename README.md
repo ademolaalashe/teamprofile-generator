@@ -34,7 +34,7 @@ As a Manager, I want to:
 - [npm](https://www.npmjs.com/)
 - [Inquirer](https://www.npmjs.com/package/inquirer)
 - [Badges](shields.io)
-- BootCamp class - This project had a starter code which helped.
+- BootCamp class - This project had a starter code.
 
 
 ## Github
