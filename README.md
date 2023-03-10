@@ -34,7 +34,8 @@ As a Manager, I want to:
 - [npm](https://www.npmjs.com/)
 - [Inquirer](https://www.npmjs.com/package/inquirer)
 - [Badges](shields.io)
-- Starter code provided 
+- BootCamp class - This project had a starter code which helped.
+
 
 ## Github
 - Github: [ademolaalashe](https://github.com/ademolaalashe)
