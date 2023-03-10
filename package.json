@@ -1,5 +1,23 @@
 {
+  "name": "team-profile-generator",
+  "version": "1.0.0",
+  "description": "CLI to generate a team html",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ademolaalashe/teamprofile-generator"
+  },
+  "author": "Ademola Alashe",
+  "license": "APACHE2.O",
+  "homepage": "https://github.com/ademolaalashe?tab=repositories",
   "dependencies": {
-    "inquirer": "^9.1.4"
+    "inquirer": "^8.2.5",
+    "jest": "^29.4.3"
   }
 }
